@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin:0;padding:0;
+    box-sizing:border-box;
+    outline:none;
+    border:none;
+    text-decoration:none;
+    text-transform:capitalize;
+    transition:.2s linear;
+    /* background-color: #F1EEE3; */
+}
+
+.app{
+    display: flex;
+}
+
+.appp{
+    display: flex;
+    background-color: #d0ced6;
+    overflow: hidden;
+}

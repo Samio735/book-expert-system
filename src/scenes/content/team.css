@@ -1,0 +1,58 @@
+.team h1{
+    font-family: 'Caladea';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 70px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+}
+
+.team .members .box{
+    display: flex;
+    /* justify-content: space-between; */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.team .members .box img{
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    margin-right: 14px;
+}
+
+.team .members .box p {
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 2;
+}
+
+.box .content h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+
+.personal-info {
+    display: flex;
+    align-items: center;
+}
+  
+  .icon-container {
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+  }
+  
+  .info-container p {
+    margin: 0;
+    text-transform: lowercase;
+  }
+  
+  .fa-user, .fa-envelope, .fa-phone {
+    font-size: 20px;
+  }
+  

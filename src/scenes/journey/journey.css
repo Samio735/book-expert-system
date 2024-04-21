@@ -1,0 +1,77 @@
+.JorneyContant{
+    padding: 2rem;
+    height: 100;
+    width: 95vw;
+}
+
+.Jorney h1 ,.JorneyContant h1{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 37px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    color: #000000;    
+}
+
+.Jorney p{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    width: 637px;
+    height: 123px;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.6);    
+}
+
+.Nav-Conta{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.Nav-Conta .Inf{
+    padding-right: 2rem;
+}
+
+
+/*  */
+
+
+ .BookSResultat .imageC{
+    width: 186px;
+    height: 233px;
+    background: rgba(217, 217, 217, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+ .BookSResultat .title{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #000000;   
+    /* margin-bottom: .7rem;  */
+    width: 200px;
+}
+
+.contantSearch{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    margin-top: 2rem;
+}
+
+.contantSearch .BookSResultat{
+    transition: transform 0.2s ease-out;
+}
+
+.contantSearch .BookSResultat:hover{
+    transform: scale(1.1);
+}

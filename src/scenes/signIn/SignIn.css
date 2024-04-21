@@ -1,0 +1,199 @@
+.SignPG{
+    display: flex;
+}
+
+.sign-left{
+    background: url(../images/login-bg.png) ;
+    background-size: cover;
+    width: 40%;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.line{
+    border: 1.3px dashed rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+.sign-right{
+    width: 60%;
+    background: #F1EEE3;
+    height: 100vh;
+    overflow: hidden;
+    padding: 4rem 7rem;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+.sign-right h1{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    color: #000000;    
+}
+
+.sign-right p{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);    
+    margin-bottom: 2rem;
+}
+
+.sign-right label{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);    
+    margin-bottom: 1rem;
+}
+
+.sign-right input{
+    width: 35rem;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px; 
+    margin-bottom: 2rem;   
+}
+
+.sign-left .title {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px ;
+}
+
+.sign-left .title h1{
+    align-self: flex-start;
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 90px;
+    color: #000000;
+    padding-right: 15px;
+}
+
+.sign-left .title span{
+    color: #E46267;
+}
+
+.sign-right .Sing-C{
+    display: flex;
+    position: relative;
+    width:100%;
+    margin-top: 2rem;
+    /* justify-content: space-between; */
+}
+
+.sign-right .Sing-C span{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 40px;
+    color: rgba(228, 98, 103, 0.8);    
+}
+
+.sign-right input{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+}
+
+.sign-right .btn-SignIn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #E46267;
+    border-radius: 10px;
+    width: 211px;
+    height: 70px;
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.25));
+    justify-content: flex-end;    
+}
+
+.sign-right .btn-SignIn:hover{
+    background: #e82f35;
+}
+
+.sign-right .btn-SignIn a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;    
+}
+
+.sign-left .book-info{
+    width: 401px;
+    height: 504px; 
+    background: rgba(253, 251, 247, 0.287);
+    border-radius: 5px;
+    margin: 1rem 3rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.sign-left .book-info .p1{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+    color: #FDFBF7;
+    /* border: 2px solid rgba(255, 255, 255, 0.8); */
+   
+}
+
+.sign-left .book-info .p1 span{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    letter-spacing: .1rem;
+    text-decoration-line: underline;
+    color: #E46068;
+    /* border: 2px solid rgba(0, 0, 0, 0.8);     */
+}
+
+.sign-left .book-info .p2{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03rem;
+    margin-top: 2rem;
+    color: rgba(0, 0, 0, 0.4);
+    /* border: 1px solid rgba(0, 0, 0, 0.7); */
+}

@@ -1,0 +1,176 @@
+.DetailsContent{
+    /* position: relative; */
+}
+
+.DetailsContent .Nav-Conta{
+    width: 95vw;
+}
+
+.DetailsContent .pageElement {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    /* position: relative; */
+
+    
+}
+
+.DetailsContent .pageElement .imageCO{
+    width: 251px;
+    height: 398px;  
+    background: rgba(217, 217, 217, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    box-shadow: -30px 20px 50px rgba(0, 0, 0, 0.4);    
+    margin-right: 2rem;
+}
+
+.DetailsContent .pageElement .EContent{
+    display: flex;
+    flex-direction: column;   
+    width: 347px;
+}
+
+.DetailsContent .pageElement .EContent h1{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #000000;    
+}
+
+.DetailsContent .pageElement .EContent h2{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    display: flex;
+    color: rgba(0, 0, 0, 0.7);    
+}
+
+.DetailsContent .pageElement .EContent p{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 1rem;
+    display: flex;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);    
+}
+
+.DetailsContent .Details{
+    background: #FDFBF7;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    width:85%;
+    /* height: 100%; */
+    margin: -6rem 3rem 0 3rem; 
+}
+
+.DetailsContent .Details .btn-{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;   
+    /* width: 40rem;  */
+}
+
+.DetailsContent .Details .btn- .lgg{
+    margin-left: 7rem;
+}
+
+.DetailsContent .Details .btn- img{
+    width: 28px;
+    height: 28px;
+    margin: 1rem;
+}
+
+.DetailsContent .Details .btn- img:hover{
+    background-color: aliceblue;
+}
+
+.DetailsContent .line{
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25); 
+    /* width: 70%;    */
+    /* margin-left: 2rem; */
+}
+
+.DetailsContent .Details .DetailsBook{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.DetailsContent .Details .DetailsBook .Description{
+    /* padding: 2rem; */
+}
+
+.DetailsContent .Details .DetailsBook .Description h1{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.DetailsContent .Details .DetailsBook .Description p{
+    width: 482px;
+    height: 224px;
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    
+}
+
+.DetailsContent .Details .DetailsBook .MoreDetails{
+    margin-top: 1rem;
+
+}
+
+.DetailsContent .Details .DetailsBook .MoreDetails p{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.DetailsContent .Details .DetailsBook .MoreDetails h1{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    
+}
+
+.DetailsContent .Details .Comments{
+    padding: 1rem;
+}
+
+.DetailsContent .Details .Comments h1{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}

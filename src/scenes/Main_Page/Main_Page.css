@@ -1,0 +1,99 @@
+/* .Main_Page .Nav-Conta{
+    width: 94vw;
+} */
+
+.Main_Page {
+    width: 94vw;
+}
+
+.Main_Page h1{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    width: 22rem;
+    margin-bottom: 2rem;
+    /* height: 12rem; */
+}
+
+.Main_Page p{
+    width: 32rem;
+    height: 10rem;
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.Main_Page .LeftMain{
+    width: 74%;
+    background: #F1EEE3;
+    padding: 2rem 4rem 3rem 2rem;
+}
+
+.Main_Page .RightMain{
+    width: 30%;
+    overflow: hidden;
+    /* height: 100vh; */
+    background: #fff;
+    padding: 2.4rem;
+}
+
+.Main_Page .imageC{
+    width: 166px;
+    height: 213px;
+    background: rgba(217, 217, 217, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    /* box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25); */
+}
+
+ .Main_Page .BookSResultat .title{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #000000;   
+    /* margin-bottom: .7rem;  */
+    width: 200px;
+}
+
+.Main_Page .contantSearch{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-gap: 1rem; */
+}
+
+.Main_Page .contantSearch .BookSResultat{
+    transition: transform 0.2s ease-out;
+}
+
+.Main_Page .contantSearch .BookSResultat:hover{
+    transform: scale(1.03);
+}
+
+.Main_Page .OurHelp .imageC{
+    width: 20rem;
+    height: 233px;
+}
+
+.Main_Page .OurHelp{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Main_Page .OurHelp p{
+    width: 22rem;
+    height: 10rem;
+    margin-right: 2.6rem;
+    display: flex;
+    align-items: center;
+}

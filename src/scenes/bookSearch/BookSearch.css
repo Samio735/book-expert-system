@@ -1,0 +1,132 @@
+.Search{
+    display: flex;
+}
+
+.Search .bookSearchLeft{
+    background: #F1EEE3;
+    width: 62.4vw;
+    height: 100%;
+    padding: 2rem;
+}
+
+.Search .bookSearchRight{
+    background: #FDFBF7;
+    /* flex: 1; */
+    width: calc(100vw - 70vw);
+        /* flex-grow:1; */
+    /* height: 100vh; */
+    padding: 2rem;
+
+}
+
+
+.Search .contantSearch {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 1.5rem;
+}  
+
+.Search .BookSResultat .imageC{
+    width: 186px;
+    height: 233px;
+    background: rgba(217, 217, 217, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.Search .BookSResultat .title{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #000000;   
+    margin-bottom: 2rem; 
+}
+
+.bookSearchLeft p{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #000000;  
+    margin-bottom: 1rem;  
+}
+
+.bookSearchLeft span{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #E46267;    
+}
+
+.SearchFilter h1{
+    margin-top: 2rem;
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.SearchFilter h2{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.6);  
+    margin-bottom: 1rem  
+}
+
+.line{
+    border: 1.3px dashed rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+
+.SearchFilter .checkbox-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .SearchFilter .checkbox-container input[type='checkbox'] {
+    display: none;
+  }
+  
+  .SearchFilter .checkbox-container input[type='checkbox'] + span:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+  }
+  
+  .SearchFilter .checkbox-container input[type='checkbox']:checked + span:before {
+    background-color: #000000;
+    border-color: #ff0000;
+  }
+  
+  .SearchFilter .checkbox-container span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #333;
+  }
+  

@@ -1,0 +1,13 @@
+{
+    "books":[
+        {
+            "id":1,
+            "title":"Fire and Shit",
+            "author":"Andrew Tate",
+            "themes":["motivation","discipline",""],
+            "description":"jojsda odsjap odjsapojd pasjdp ijaspdijp saojd poj",
+            "key_points":["sadasdad asd sadsad ", "dsad asd sad sad", "asdsad sada"],
+            "content":["dosakpdkpsaokd posakd posakdp ka","sadkosakdposakdposakdoad","psaokdposakdpoaksd "]
+        }
+    ]
+}

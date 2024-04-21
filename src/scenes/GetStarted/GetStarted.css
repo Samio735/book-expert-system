@@ -1,0 +1,149 @@
+.GetStart{
+    display: flex;
+}
+.start-left {
+    width: 60%;
+    overflow: hidden;
+    height: 100vh;
+    background: #F1EEE3;
+    padding: 1rem 3rem 2.5rem 2rem;
+}
+  
+  .start-right {
+    width: 40%;
+    overflow: hidden;
+    height: 100%;
+    background: url(../images/register-bg.png);
+    background-size: cover;
+    height: 100vh;
+  }
+
+.start-left .start-title{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.start-left p{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.7);
+    padding-bottom:16px;
+    margin-top: -.7rem;
+}
+
+.start-left .inputInfo{
+    width: 50rem;
+}
+
+.start-left .pers-info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 14px;
+    margin-bottom: 1.5rem;
+    /* max-width: fit-content; */
+}
+.start-left .pers-info input{
+    width: 220px;
+    height: 36px;
+    background: #FFFFFF;
+    margin-top: 8px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+
+/* .start-left .infoEP{
+    max-width: fit-content;
+} */
+
+.start-left .infoEP input{
+    width: 630px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px; 
+    margin-bottom: 1rem;   
+    flex-grow: 1;
+}
+
+.start-left label{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.start-left .Creat-account{
+    margin-top: 1rem;
+    background: #E46267;
+    border-radius: 10px;
+    width: 261px;
+    height: 60px;
+    color: #FFFFFF;
+}
+
+.start-left .Creat-account:hover{
+    background: #ec3238;
+}
+
+.start-right .right-contant{
+    padding: 4.3rem;
+}
+
+.start-right .title {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.start-right .title h1{
+    align-self: flex-start;
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 90px;
+    color: #000000;
+    padding-right: 15px;
+}
+
+.start-right .title span{
+    color: #E46267;
+}
+
+.start-right .right-contant h1{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    padding: .7rem;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    border: 1px solid #ffffff;
+}
+
+.start-right .description p{
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 3rem;
+}

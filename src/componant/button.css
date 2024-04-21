@@ -1,0 +1,25 @@
+.btn-cont{
+    background: #272A34;
+    border-radius: 20px;
+    width: 214px;
+    height: 47px; 
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
+    cursor: pointer;
+}
+
+.btn-cont:hover{
+    background: #38393c;
+}
+
+.btn-cont a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;    
+}
